@@ -20,7 +20,7 @@ There are also additional resources that can be accessed using the registry:
 # Addons
 
 <!-- ADDONS_START -->
-<img src="https://github.com/HologramLib/Commands/icon.png" width="70"><br>
+<img src="https://github.com/HologramLib/Commands/blob/main/icon.png?raw=true" width="70"><br>
 ### Commands 2.1.0
 Commands for controlling holograms.
 
@@ -32,7 +32,7 @@ Commands for controlling holograms.
 
 <hr>
 
-<img src="https://github.com/HologramLib/Effects/icon.png" width="70"><br>
+<img src="https://github.com/HologramLib/Effects/blob/main/icon.png?raw=true" width="70"><br>
 ### Effects 1.3.0
 Adds special effects to holograms, like fading or glowing.
 
@@ -44,7 +44,7 @@ Adds special effects to holograms, like fading or glowing.
 
 <hr>
 
-<img src="https://github.com/HologramLib/Movements/icon.png" width="70"><br>
+<img src="https://github.com/HologramLib/Movements/blob/main/icon.png?raw=true" width="70"><br>
 ### Movements 2.1.0
 Allows holograms to move or animate.
 
@@ -56,7 +56,7 @@ Allows holograms to move or animate.
 
 <hr>
 
-<img src="https://github.com/HologramLib/Text/icon.png" width="70"><br>
+<img src="https://github.com/HologramLib/Text/blob/main/icon.png?raw=true" width="70"><br>
 ### Text 2.1.0
 Enhances text rendering for holograms with custom fonts or colors.
 
@@ -68,7 +68,7 @@ Enhances text rendering for holograms with custom fonts or colors.
 
 <hr>
 
-<img src="https://github.com/HologramLib/Interactions/icon.png" width="70"><br>
+<img src="https://github.com/HologramLib/Interactions/blob/main/icon.png?raw=true" width="70"><br>
 ### Interactions 2.1.0
 Enables player interaction with holograms, like clicking.
 
