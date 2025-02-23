@@ -6,58 +6,63 @@
 <hr>
 
 <!-- ADDONS_START -->
+<img src="https://github.com/HologramLib/Commands/icon.png" width="70"><br>
 ### Commands 2.1.0
-![Icon](https://github.com/HologramLib/Commands/icon.png)
 Commands for controlling holograms.
 
-Compatibility
-```
-1.1.5 -> 1.7.1
-```
+<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
+
+<a href="${baseURL}${name}">
+  <img width="100px" src="download.svg" alt="Download"/>
+</a>
 
 <hr>
 
+<img src="https://github.com/HologramLib/Effects/icon.png" width="70"><br>
 ### Effects 1.3.0
-![Icon](https://github.com/HologramLib/Effects/icon.png)
 Adds special effects to holograms, like fading or glowing.
 
-Compatibility
-```
-1.1.5 -> 1.7.1
-```
+<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
+
+<a href="${baseURL}${name}">
+  <img width="100px" src="download.svg" alt="Download"/>
+</a>
 
 <hr>
 
+<img src="https://github.com/HologramLib/Movements/icon.png" width="70"><br>
 ### Movements 2.1.0
-![Icon](https://github.com/HologramLib/Movements/icon.png)
 Allows holograms to move or animate.
 
-Compatibility
-```
-1.1.5 -> 1.7.1
-```
+<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
+
+<a href="${baseURL}${name}">
+  <img width="100px" src="download.svg" alt="Download"/>
+</a>
 
 <hr>
 
+<img src="https://github.com/HologramLib/Text/icon.png" width="70"><br>
 ### Text 2.1.0
-![Icon](https://github.com/HologramLib/Text/icon.png)
 Enhances text rendering for holograms with custom fonts or colors.
 
-Compatibility
-```
-1.1.5 -> 1.7.1
-```
+<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
+
+<a href="${baseURL}${name}">
+  <img width="100px" src="download.svg" alt="Download"/>
+</a>
 
 <hr>
 
+<img src="https://github.com/HologramLib/Interactions/icon.png" width="70"><br>
 ### Interactions 2.1.0
-![Icon](https://github.com/HologramLib/Interactions/icon.png)
 Enables player interaction with holograms, like clicking.
 
-Compatibility
-```
-1.1.5 -> 1.7.1
-```
+<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
+
+<a href="${baseURL}${name}">
+  <img width="100px" src="download.svg" alt="Download"/>
+</a>
 
 <hr>
 
