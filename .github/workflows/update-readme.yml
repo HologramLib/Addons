@@ -56,6 +56,7 @@ jobs:
               
               const { min, max } = parseVersions(data.versions);
               const iconUrl = `${baseURL}${name}/icon.png`;
+              const downloadUrl = `${baseURL}${name}/releases/download/${latestVersion}/${name}-${latestVersion}.jar`
               
               output.push(
                 `<img src="${iconUrl}" width="70"><br>`,
@@ -64,7 +65,7 @@ jobs:
                 '',
                 `<sup>Compatibility with HologramLib \`${min} -> ${max}\`</sup>`,
                 '',
-                `<a href="${baseURL}${name}/releases/download/${latestVersion}/${name}-${latestVersion}.jar">`,
+                `<a href="${downloadUrl}">`,
                 `  <img width="100px" src="download.svg" alt="Download"/>`,
                 `</a>`,
                 '',
