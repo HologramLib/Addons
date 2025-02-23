@@ -19,13 +19,13 @@ There are also additional resources that can be accessed using the registry:
 # Addons
 
 <!-- ADDONS_START -->
-<img src="undefinedasdasd/icon.png" width="70"><br>
-### asdasd 2.1.0
+<img src="undefinedCommands/icon.png" width="70"><br>
+### Commands 2.1.0
 Commands for controlling holograms.
 
 <sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
-<a href="undefinedasdasd/releases/download/2.1.0/asdasd-2.1.0.jar">
+<a href="undefinedCommands/releases/download/2.1.0/Commands-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
