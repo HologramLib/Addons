@@ -2,6 +2,7 @@
    "addons":{
       "baseURL":"https://github.com/HologramLib/",
       "Commands":{
+         "description": "bla bla",
          "versions":{
             "2.1.0":"HologramLib-1.2.0",
             "2.0.0":"HologramLib-1.1.5"
