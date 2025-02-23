@@ -14,6 +14,7 @@ There are also additional resources that can be accessed using the registry:
 - **Download URL for Latest Version**  
   `${baseURL}${addon_name}/releases/download/latest/${name}-${latestVersion}.jar`
 
+
 <hr>
 
 # Addons
