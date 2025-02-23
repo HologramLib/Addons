@@ -81,8 +81,10 @@ jobs:
 
       - name: Commit changes
         run: |
+      - name: Commit changes
+        run: |
           git config --global user.name "HologramLib Actions"
           git config --global user.email "actions@maxim.cat"
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "update: addons table"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/HologramLib/Addons.git
