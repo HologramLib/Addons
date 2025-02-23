@@ -12,7 +12,7 @@ Commands for controlling holograms.
 
 <sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
 
-<a href="${baseURL}${name}/releases/download/latest/${name}-${latestVersion}.jar">
+<a href="https://github.com/HologramLib/Commands/releases/download/latest/Commands-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
@@ -24,7 +24,7 @@ Adds special effects to holograms, like fading or glowing.
 
 <sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
 
-<a href="${baseURL}${name}/releases/download/latest/${name}-${latestVersion}.jar">
+<a href="https://github.com/HologramLib/Effects/releases/download/latest/Effects-1.3.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
@@ -36,7 +36,7 @@ Allows holograms to move or animate.
 
 <sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
 
-<a href="${baseURL}${name}/releases/download/latest/${name}-${latestVersion}.jar">
+<a href="https://github.com/HologramLib/Movements/releases/download/latest/Movements-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
@@ -48,7 +48,7 @@ Enhances text rendering for holograms with custom fonts or colors.
 
 <sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
 
-<a href="${baseURL}${name}/releases/download/latest/${name}-${latestVersion}.jar">
+<a href="https://github.com/HologramLib/Text/releases/download/latest/Text-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
@@ -60,7 +60,7 @@ Enables player interaction with holograms, like clicking.
 
 <sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
 
-<a href="${baseURL}${name}/releases/download/latest/${name}-${latestVersion}.jar">
+<a href="https://github.com/HologramLib/Interactions/releases/download/latest/Interactions-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
