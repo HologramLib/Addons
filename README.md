@@ -3,7 +3,7 @@
 <p>A list of all addons for HologramLib</p>
 </div>
 
-## What is the Registry?
+## What is the registry?
 The [registry](registry.json) maintains a list of all addons for **HologramLib**, along with their corresponding versions.  
 HologramLib uses this registry to fetch and verify compatible versions of each addon.
 
