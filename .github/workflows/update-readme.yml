@@ -58,14 +58,15 @@ jobs:
               const iconUrl = `${baseURL}${name}/icon.png`;
               
               output.push(
+                `<img src="${iconUrl}" width="70"><br>`,
                 `### ${name} ${latestVersion}`,
-                `![Icon](${iconUrl})`,
                 `${data.description}`,
                 '',
-                'Compatibility',
-                '```',
-                `${min} -> ${max}`,
-                '```',
+                '<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>',
+                '',
+                '<a href="${baseURL}${name}">',
+                '  <img width="100px" src="download.svg" alt="Download"/>',
+                '</a>',
                 '',
                 '<hr>',
                 ''
