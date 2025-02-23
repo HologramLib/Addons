@@ -1,6 +1,6 @@
 {
+   "baseURL": "https://github.com/HologramLib/",
    "addons": {
-      "baseURL": "https://github.com/HologramLib/",
       "Commands": {
          "description": "Commands for controlling holograms.",
          "versions": {
