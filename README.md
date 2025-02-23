@@ -16,6 +16,8 @@ There are also additional resources that can be accessed using the registry:
 
 <hr>
 
+## Addons
+
 <!-- ADDONS_START -->
 <img src="https://github.com/HologramLib/Commands/icon.png" width="70"><br>
 ### Commands 2.1.0
