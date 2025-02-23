@@ -55,7 +55,7 @@ jobs:
               const latestVersion = sortedAddonVersions[0].version;
               
               const { min, max } = parseVersions(data.versions);
-              const iconUrl = `${baseURL}${name}/icon.png`;
+              const iconUrl = `${baseURL}${name}/blob/main/icon.png?raw=true`;
               const downloadUrl = `${baseURL}${name}/releases/download/${latestVersion}/${name}-${latestVersion}.jar`
               
               output.push(
