@@ -1,7 +1,18 @@
 <div align="center">
-<h1>Addons</h1>
+<h1>The Addon Registry</h1>
 <p>A list of all addons for HologramLib</p>
 </div>
+
+## What is the Registry?
+The [registry](registry.json) maintains a list of all addons for **HologramLib**, along with their corresponding versions.  
+HologramLib uses this registry to fetch and verify compatible versions of each addon.
+
+There are also additional resources that can be accessed using the registry:
+- **Addon Image**   
+  `${baseURL}${addon_name}/icon.png`
+
+- **Download URL for Latest Version**  
+  `${baseURL}${addon_name}/releases/download/latest/${name}-${latestVersion}.jar`
 
 <hr>
 
@@ -67,7 +78,6 @@ Enables player interaction with holograms, like clicking.
 <hr>
 
 <!-- ADDONS_END -->
-
 
 <div align="center">
   <sub>Used by 50+ servers | 2.500+ downloads across platforms</sub><br>
