@@ -4,4 +4,8 @@
 </div>
 
 <!-- ADDONS_START -->
+| Commands 2.0.0 | Description | Compatibility |
+|-------|--------|--------------------------|
+| ![Icon](https://github.com/HologramLib/Commands/icon.png) | bla bla | **HologramLib** 1.1.5 to 1.2.0 |
+
 <!-- ADDONS_END -->
