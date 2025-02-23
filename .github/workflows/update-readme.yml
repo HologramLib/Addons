@@ -62,7 +62,7 @@ jobs:
                 `### ${name} ${latestVersion}`,
                 `${data.description}`,
                 '',
-                '<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>',
+                `<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>`,
                 '',
                 `<a href="${baseURL}${name}/releases/download/latest/${name}-${latestVersion}.jar">`,
                 `  <img width="100px" src="download.svg" alt="Download"/>`,
