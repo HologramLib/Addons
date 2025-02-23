@@ -10,7 +10,7 @@
 ### Commands 2.1.0
 Commands for controlling holograms.
 
-<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
+<sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
 <a href="https://github.com/HologramLib/Commands/releases/download/latest/Commands-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
@@ -22,7 +22,7 @@ Commands for controlling holograms.
 ### Effects 1.3.0
 Adds special effects to holograms, like fading or glowing.
 
-<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
+<sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
 <a href="https://github.com/HologramLib/Effects/releases/download/latest/Effects-1.3.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
@@ -34,7 +34,7 @@ Adds special effects to holograms, like fading or glowing.
 ### Movements 2.1.0
 Allows holograms to move or animate.
 
-<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
+<sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
 <a href="https://github.com/HologramLib/Movements/releases/download/latest/Movements-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
@@ -46,7 +46,7 @@ Allows holograms to move or animate.
 ### Text 2.1.0
 Enhances text rendering for holograms with custom fonts or colors.
 
-<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
+<sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
 <a href="https://github.com/HologramLib/Text/releases/download/latest/Text-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
@@ -58,7 +58,7 @@ Enhances text rendering for holograms with custom fonts or colors.
 ### Interactions 2.1.0
 Enables player interaction with holograms, like clicking.
 
-<sup>Compatibility with HologramLib `${min} -> ${max}`</sup>
+<sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
 <a href="https://github.com/HologramLib/Interactions/releases/download/latest/Interactions-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
