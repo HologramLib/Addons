@@ -43,7 +43,7 @@ jobs:
 
           function generateTables(addons) {
             let output = [];
-            const baseURL = addons.baseURL;
+            const baseURL = "https://github.com/HologramLib/";
             
             Object.entries(addons).forEach(([name, data]) => {
               if (name === 'baseURL') return;
