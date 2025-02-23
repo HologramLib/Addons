@@ -1,0 +1,89 @@
+name: Update Addons Table
+on: push
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install semver
+
+      - name: Generate and run update script
+        run: |
+          cat << 'EOF' > update-readme.js
+          const fs = require('fs');
+          const semver = require('semver');
+
+          function parseVersions(versions) {
+            const hologramVersions = Object.values(versions).map(v => {
+              const parts = v.split('-');
+              return parts[parts.length - 1];
+            });
+            
+            const sorted = hologramVersions
+              .map(v => semver.coerce(v))
+              .sort((a, b) => semver.compare(a, b));
+            
+            return {
+              min: sorted[0].version,
+              max: sorted[sorted.length - 1].version
+            };
+          }
+
+          function generateTables(addons) {
+            let output = [];
+            const baseURL = addons.baseURL;
+            
+            Object.entries(addons).forEach(([name, data]) => {
+              if (name === 'baseURL') return;
+              
+              const versions = Object.keys(data.versions);
+              const sortedVersions = versions.map(v => semver.coerce(v))
+                .sort((a, b) => semver.compare(a, b));
+              const latestVersion = versions[versions.length - 1];
+              
+              const { min, max } = parseVersions(data.versions);
+              const iconUrl = `${baseURL}${name}/icon.png`;
+              
+              output.push(
+                `| ${name} ${latestVersion} | Description | Compatibility |`,
+                '|-------|--------|--------------------------|',
+                `| ![Icon](${iconUrl}) | ${data.description} | **HologramLib** ${min} to ${max} |\n`
+              );
+            });
+            
+            return output.join('\n');
+          }
+
+          // Main execution
+          const registry = JSON.parse(fs.readFileSync('registry.json'));
+          const readmePath = 'README.md';
+          const markerStart = '<!-- ADDONS_START -->';
+          const markerEnd = '<!-- ADDONS_END -->';
+          
+          let readme = fs.readFileSync(readmePath, 'utf8');
+          const newContent = generateTables(registry.addons);
+          
+          const updatedReadme = readme.replace(
+            new RegExp(`${markerStart}[\\s\\S]*?${markerEnd}`),
+            `${markerStart}\n${newContent}\n${markerEnd}`
+          );
+
+          fs.writeFileSync(readmePath, updatedReadme);
+          EOF
+          node update-readme.js
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "update: addons table"
+          git push
