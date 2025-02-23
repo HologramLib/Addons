@@ -20,61 +20,61 @@ There are also additional resources that can be accessed using the registry:
 # Addons
 
 <!-- ADDONS_START -->
-<img src="undefinedCommands/icon.png" width="70"><br>
+<img src="https://github.com/HologramLib/Commands/icon.png" width="70"><br>
 ### Commands 2.1.0
 Commands for controlling holograms.
 
 <sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
-<a href="undefinedCommands/releases/download/2.1.0/Commands-2.1.0.jar">
+<a href="https://github.com/HologramLib/Commands/releases/download/2.1.0/Commands-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
 <hr>
 
-<img src="undefinedEffects/icon.png" width="70"><br>
+<img src="https://github.com/HologramLib/Effects/icon.png" width="70"><br>
 ### Effects 1.3.0
 Adds special effects to holograms, like fading or glowing.
 
 <sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
-<a href="undefinedEffects/releases/download/1.3.0/Effects-1.3.0.jar">
+<a href="https://github.com/HologramLib/Effects/releases/download/1.3.0/Effects-1.3.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
 <hr>
 
-<img src="undefinedMovements/icon.png" width="70"><br>
+<img src="https://github.com/HologramLib/Movements/icon.png" width="70"><br>
 ### Movements 2.1.0
 Allows holograms to move or animate.
 
 <sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
-<a href="undefinedMovements/releases/download/2.1.0/Movements-2.1.0.jar">
+<a href="https://github.com/HologramLib/Movements/releases/download/2.1.0/Movements-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
 <hr>
 
-<img src="undefinedText/icon.png" width="70"><br>
+<img src="https://github.com/HologramLib/Text/icon.png" width="70"><br>
 ### Text 2.1.0
 Enhances text rendering for holograms with custom fonts or colors.
 
 <sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
-<a href="undefinedText/releases/download/2.1.0/Text-2.1.0.jar">
+<a href="https://github.com/HologramLib/Text/releases/download/2.1.0/Text-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
 <hr>
 
-<img src="undefinedInteractions/icon.png" width="70"><br>
+<img src="https://github.com/HologramLib/Interactions/icon.png" width="70"><br>
 ### Interactions 2.1.0
 Enables player interaction with holograms, like clicking.
 
 <sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
 
-<a href="undefinedInteractions/releases/download/2.1.0/Interactions-2.1.0.jar">
+<a href="https://github.com/HologramLib/Interactions/releases/download/2.1.0/Interactions-2.1.0.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
