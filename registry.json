@@ -1,7 +1,7 @@
 {
    "baseURL": "https://github.com/HologramLib/",
    "addons": {
-      "asdasd": {
+      "Commands": {
          "description": "Commands for controlling holograms.",
          "versions": {
             "2.1.0": "1.7.1",
