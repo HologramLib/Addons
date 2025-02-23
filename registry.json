@@ -4,42 +4,45 @@
       "Commands": {
          "description": "Commands for controlling holograms.",
          "versions": {
-            "2.1.0": "HologramLib-1.2.0",
-            "2.0.0": "HologramLib-1.1.5",
-            "1.9.0": "HologramLib-1.0.8",
-            "1.8.0": "HologramLib-0.9.5"
+            "2.1.0": "1.7.1",
+            "2.0.0": "1.1.5",
+            "1.9.0": "1.6.9",
+            "1.8.0": "1.6.6"
          }
       },
       "Effects": {
          "description": "Adds special effects to holograms, like fading or glowing.",
          "versions": {
-            "1.3.0": "HologramLibEffects-0.6.0",
-            "1.2.0": "HologramLibEffects-0.5.4",
-            "1.1.0": "HologramLibEffects-0.4.8"
+            "1.3.0": "1.7.1",
+            "1.2.0": "1.1.5",
+            "1.1.0": "1.6.6"
          }
       },
       "Movements": {
          "description": "Allows holograms to move or animate.",
          "versions": {
-            "3.0.0": "HologramLibMovements-2.0.1",
-            "2.0.0": "HologramLibMovements-1.8.5",
-            "1.0.0": "HologramLibMovements-1.5.2"
+            "2.1.0": "1.7.1",
+            "2.0.0": "1.1.5",
+            "1.9.0": "1.6.9",
+            "1.8.0": "1.6.6"
          }
       },
       "Text": {
          "description": "Enhances text rendering for holograms with custom fonts or colors.",
          "versions": {
-            "1.5.0": "HologramLibText-1.3.0",
-            "1.4.0": "HologramLibText-1.2.7",
-            "1.3.0": "HologramLibText-1.1.9"
+            "2.1.0": "1.7.1",
+            "2.0.0": "1.1.5",
+            "1.9.0": "1.6.9",
+            "1.8.0": "1.6.6"
          }
       },
       "Interactions": {
          "description": "Enables player interaction with holograms, like clicking.",
          "versions": {
-            "2.0.0": "HologramLibInteractions-1.7.0",
-            "1.9.0": "HologramLibInteractions-1.6.2",
-            "1.8.0": "HologramLibInteractions-1.5.4"
+            "2.1.0": "1.7.1",
+            "2.0.0": "1.1.5",
+            "1.9.0": "1.6.9",
+            "1.8.0": "1.6.6"
          }
       }
    }
