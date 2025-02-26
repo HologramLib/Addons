@@ -24,7 +24,7 @@ There are also additional resources that can be accessed using the registry:
 ### Commands 2.1.1
 Commands for controlling holograms.
 
-<sup>Compatibility with HologramLib `1.1.5 -> 1.7.1`</sup>
+<sup>Compatibility with HologramLib `1.1.5 -> 1.6.9`</sup>
 
 <a href="https://github.com/HologramLib/Commands/releases/download/2.1.1/Commands-2.1.1.jar">
   <img width="100px" src="download.svg" alt="Download"/>
