@@ -1,7 +1,7 @@
 {
    "baseURL": "https://github.com/HologramLib/",
    "addons": {
-      "Commands": {
+      "Commandsa": {
          "description": "Commands for controlling holograms.",
          "versions": {
             "2.1.1": "1.5.1",
