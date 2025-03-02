@@ -20,13 +20,13 @@ There are also additional resources that can be accessed using the registry:
 # Addons
 
 <!-- ADDONS_START -->
-<img src="https://github.com/HologramLib/Commands/blob/main/icon.png?raw=true" width="70"><br>
-### Commands 2.1.1
+<img src="https://github.com/HologramLib/Commandsa/blob/main/icon.png?raw=true" width="70"><br>
+### Commandsa 2.1.1
 Commands for controlling holograms.
 
 <sup>Compatibility with HologramLib `1.1.5 -> 1.6.9`</sup>
 
-<a href="https://github.com/HologramLib/Commands/releases/download/2.1.1/Commands-2.1.1.jar">
+<a href="https://github.com/HologramLib/Commandsa/releases/download/2.1.1/Commandsa-2.1.1.jar">
   <img width="100px" src="download.svg" alt="Download"/>
 </a>
 
